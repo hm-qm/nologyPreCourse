@@ -1,0 +1,69 @@
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.contact-form label {
+  margin-right: 20px;
+}
+
+.contact-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  color: white;
+}
+
+#email,
+#name,
+#comment {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+#email:hover,
+#name:hover,
+#comment:hover {
+  border-bottom: 1px solid white;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#currentMessages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: left;
+}
